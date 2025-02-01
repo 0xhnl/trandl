@@ -15,7 +15,7 @@ This Python script allows users to download the transcript of a YouTube video an
 
 Make sure you have Python installed. You also need to install the required dependency:
 
-```sh
+```bash
 pip3 install youtube-transcript-api
 ```
 
@@ -23,13 +23,13 @@ pip3 install youtube-transcript-api
 
 Run the script using the following command:
 
-```sh
+```bash
 python3 trandl.py -u <YouTube_URL> -o <output_file>
 ```
 
 ### Example:
 
-```sh
+```bash
 python3 trandl.py -u https://www.youtube.com/watch?v=something -o output.txt
 ```
 
